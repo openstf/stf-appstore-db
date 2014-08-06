@@ -1,0 +1,10 @@
+/.env
+/.gitignore
+/.npmignore
+/Makefile
+/*.tgz
+/build/
+/node_modules/
+/static/
+/temp/
+/test/
