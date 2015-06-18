@@ -17,11 +17,8 @@ $(apps): app-% : \
 build/platforms/android:
 	mkdir -p $@
 
-build/platforms/android/%.png: build/platforms/android
-	if [ -f 'static/android/$*.png' ]; then \
-		cp 'static/android/$*.png' $@ \
-		; \
-	fi
+build/platforms/android/%.png: static/android/%.png | build/platforms/android
+	cp $< $@
 
 dist/icon/24x24:
 	mkdir -p $@
