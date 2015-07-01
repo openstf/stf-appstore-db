@@ -2,7 +2,18 @@
   "name": "stf-appstore-db",
   "version": "0.1.0",
   "description": "An app store database with icons.",
+  "keywords": [
+    "stf"
+  ],
+  "bugs": {
+    "url": "https://github.com/openstf/stf-appstore-db/issues"
+  },
   "license": "Apache-2.0",
+  "author": {
+    "name": "CyberAgent, Inc.",
+    "email": "npm@cyberagent.co.jp",
+    "url": "http://www.cyberagent.co.jp/"
+  },
   "main": "./index",
   "repository": {
     "type": "git",
