@@ -1,3 +1,9 @@
+# Warning
+
+# This project along with other ones in [OpenSTF](https://github.com/openstf) organisation is provided as is for community, without active development.
+# You can check any other forks that may be actively developed and offer new/different features [here](https://github.com/openstf/stf/network).
+# Active development has been moved to [DeviceFarmer](https://github.com/DeviceFarmer) organisation.
+
 # stf-appstore-db
 
 **stf-appstore-db** provides the simple app store database used by [STF](https://github.com/openstf/stf). We have mainly focused on Android app stores for now. All data may not be complete yet.
